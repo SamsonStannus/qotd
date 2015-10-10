@@ -46,18 +46,3 @@ printf \"\n\""
 
 
 
-# url = "http://www.eduro.com/"
-# fp = File.new("Quotes.txt", "w")
-
-# agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
-
-# html = agent.get(url).body
-
-# html_doc = Nokogiri::HTML(html)
-
-# list = html_doc.xpath("//div[@class='article']")
-
-# list.each { |i| fp.write(i.text) }
-
-
-
